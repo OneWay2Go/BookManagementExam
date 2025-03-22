@@ -1,0 +1,12 @@
+1. There are 6 principles in REST. Client-Server architecture, Statelessness, Code-on-demand and so on. 
+Statelessness is having enough info in incoming request.
+
+2. Structure of Http request contains two sections. Header and Body.(I think)
+
+3. Idompotency is giving same answer for replaying (a lot of same requests i mean) requests.
+
+4. Middleware is working on other pipeline(request pipeline or smth like that), while filters are working on action pipeline. Also middlewares
+are working globally, but filters can work locally too.
+
+5. I think that by using FluentValidation your code is going to be more clear and you have more control because you can validate variables with
+custom methods.
